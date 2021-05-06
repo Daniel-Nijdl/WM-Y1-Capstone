@@ -1,9 +1,12 @@
 import React from 'react';
-import Footer from './components/Footer.jsx';
+import Navbar from './components/Navbar.jsx';
+
 
 function App() {
   return (
-    <Footer />
+    <div>
+      <Navbar />
+  </div>
   );
 }
 
