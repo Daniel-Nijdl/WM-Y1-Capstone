@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import weather from './components/weather.json';
+import weather from './weather.json';
 import * as ReactBootStrap from "react-bootstrap";
 
 const weatherData = () => {
@@ -17,3 +17,5 @@ const weatherData = () => {
     
   )
 }
+
+export default weatherData
