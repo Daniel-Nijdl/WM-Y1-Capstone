@@ -14,19 +14,16 @@ const Footer = () => {
             </p>
           </MDBCol>
           <MDBCol md="6">
-            <h5 className="title">Links</h5>
+            <h5 className="title">Contact</h5>
             <ul>
               <li className="list-unstyled">
-                <a href="#!">Link 1</a>
+                <p>Phone Number: +1 (234) 567-8900</p>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 2</a>
+                <p>Email: contact@weatherworks.com</p>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 3</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 4</a>
+                <p>Github: <a href="https://github.com/ilya-tate/captsone">github.com/ilya-tate/capstone</a></p>
               </li>
             </ul>
           </MDBCol>
