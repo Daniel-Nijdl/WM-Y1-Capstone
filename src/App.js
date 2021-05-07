@@ -5,10 +5,10 @@ import Temp from './components/Temp'
 
 function App() {
   return (
-    <div>
+    <div id="wrapper">
       <Navigation />
       <Footer />
-  </div>
+    </div>
   );
 }
 
