@@ -1,9 +1,15 @@
-import { useState } from 'react'
+
 import weather from './weather.json';
+import React, { useState } from 'react'
 import * as ReactBootStrap from "react-bootstrap";
 
 const weatherData = () => {
+
+ 
+
   return(
+
+
     <div className="card" style={{width: '18rem'}}>
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
@@ -11,7 +17,6 @@ const weatherData = () => {
         <p className="card-text">
           Content
         </p>
-        <a href="/#" className="card-link">Card link</ a>
       </div>
     </div>
     
