@@ -1,7 +1,15 @@
 // Main vars
+
 $main-font: sans-serif;
+// Colors
+$darkblue-color: #1474F6;
+$midblue-color: #1197D4;
+$lightblue-color: #1EE1EB;
+$greenblue-color: #11D4A7;
+$green-color: #14F682;
 
 // Main styles
+
 *,
 *::after,
 *::before
@@ -11,3 +19,14 @@ $main-font: sans-serif;
   box-sizing: border-box;
   font-family: $main-font;
 }
+
+html {
+  height: 100vh;
+  width: 100vh;
+}
+
+// .card{
+//   .card-text{
+//     display: flex;
+//   }
+// }
