@@ -5,5 +5,9 @@
 
   "Footer": {
     "backgroundColor": "#1474F6"
+  },
+
+  "DayGraph": {
+    "TODO": "COLORS"
   }
 }
