@@ -25,8 +25,25 @@ html {
   width: 100vh;
 }
 
-// .card{
-//   .card-text{
-//     display: flex;
-//   }
-// }
+
+
+.navBar{
+  width: 100vw;
+}
+
+.card{
+  border: none !important;
+  margin: 25px;
+  .card-body{
+    border: 2px black solid;
+    border-radius: 10px;
+  }
+}
+
+.temp{
+  display: flex;
+}
+
+footer{
+  margin-top: 25px;
+}

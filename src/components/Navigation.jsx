@@ -3,7 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 const Navigation = () => {
   return(
-    <Navbar style={ { backgroundColor: props.backgroundColor } }>
+    <Navbar className="navBar" style={ { backgroundColor: props.backgroundColor } }>
         <Navbar.Brand href="#top"><img src="../logo fixed.png" alt="Logo" width="50" height="50" className="d-inline-block align-top" />Weather Works</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link className="navButton" href="#top">Home</Nav.Link>
