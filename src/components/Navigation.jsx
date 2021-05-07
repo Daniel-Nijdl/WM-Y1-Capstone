@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 const Navigation = () => {
   return(
     <Navbar style={ { backgroundColor: props.backgroundColor } }>
-        <Navbar.Brand href="#top"><img src="../logo.png" alt="Logo" width="30" height="30" className="d-inline-block align-top" />Weather Works</Navbar.Brand>
+        <Navbar.Brand href="#top"><img src="../favicon.ico" alt="Logo" width="50" height="50" className="d-inline-block align-top" />Weather Works</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#top">Home</Nav.Link>
           <Nav.Link href="#">Today</Nav.Link>
