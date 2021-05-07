@@ -1,9 +1,5 @@
 import React from 'react';
-import Navigation from './components/Navigation.jsx';
-import Footer from './components/Footer.jsx'
-import Temp from './components/Temp.jsx'
-import Map from './components/Map.jsx'
-
+import { Navigation, Footer, DayGraph, Temp, Map } from './export.js';
 
 function App() {
   return (
