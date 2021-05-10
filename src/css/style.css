@@ -9,18 +9,27 @@
 }
 
 html {
-  height: 100vh;
-  width: 100vh;
+  height: 100%;
+  width: 100%;
 }
 
 .navBar {
-  width: 100vw;
+  width: 100%;
+}
+
+.navButton {
+  color: white !important;
+}
+
+.navTitle {
+  color: white;
 }
 
 .card {
   border: none !important;
   margin: 25px;
-  padding-bottom: 100px;
+  width: 25%;
+  text-align: center;
 }
 
 .card .card-body {
@@ -35,9 +44,35 @@ html {
 }
 
 .footer {
-  background-color: #777;
+  background-color: blue;
   padding: 10px;
   text-align: center;
   color: white;
+  width: 100% !important;
+}
+
+p a {
+  color: white;
+}
+
+.main2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */

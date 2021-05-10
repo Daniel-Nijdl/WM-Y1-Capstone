@@ -1,18 +1,12 @@
-import weather from "../weather.json";
-import React, { useState } from "react";
-import * as ReactBootStrap from "react-bootstrap";
-
-const current = weather.current;
-// const longitude = weather.lon
-// const latitude = weather.lat
+import * as weather from "../weather.json";
 console.log(weather.current.weather.main);
 
 const weatherData = () => {
-  // console.log(weather)
   return (
-    <div className="card" style={{ width: "18rem" }}>
-      <div className="card-body">
-        <p className="card-text">
+
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text">
           <p>{` ${weather.lat}, ${weather.lon} `}</p>
           <p>{new Date(weather.current.dt).toLocaleTimeString("en-US")}</p>
           <h2>{`${weather.current.temp}° F`}</h2>
@@ -25,4 +19,3 @@ const weatherData = () => {
 };
 
 export default weatherData;
-
