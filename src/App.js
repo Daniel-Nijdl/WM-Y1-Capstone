@@ -1,6 +1,5 @@
 import React from 'react';
-import { Navigation, Footer, DayGraph, Temp, Map } from './export.js';
-
+import { Navigation, Footer, DayGraph, Temp, Map, Detailed } from './export.js';
 function App() {
   return (
     <div className="main">
@@ -10,7 +9,13 @@ function App() {
       <DayGraph />
       <Footer className="footer" />
   </div>
+
+
+
   );
 }
+
+
+
 
 export default App;
