@@ -1,14 +1,7 @@
 import * as weather from "../weather.json";
-import React, { useState } from "react";
-import * as ReactBootStrap from "react-bootstrap";
-
-const current = weather.current;
-// const longitude = weather.lon
-// const latitude = weather.lat
 console.log(weather.current.weather.main);
 
 const weatherData = () => {
-  // console.log(weather)
   return (
     <div className="card" style={{ width: "18rem" }}>
       <div className="card-body">

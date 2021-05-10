@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="main">
       <Navigation />
-    
       <Temp className="temp"/>
       <Map />
+      <DayGraph />
       <Footer className="footer" />
   </div>
   );
