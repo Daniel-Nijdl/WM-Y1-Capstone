@@ -1,4 +1,4 @@
-import weather from "./weather.json";
+import * as weather from "../weather.json";
 import React, { useState } from "react";
 import * as ReactBootStrap from "react-bootstrap";
 
