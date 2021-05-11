@@ -8,7 +8,6 @@ const Humidity = () => {
           <p>{ ` ${ weather.lat }, ${ weather.lon } ` }</p>
           <p>{ new Date(weather.current.dt).toLocaleTimeString("en-US") }</p>
           <h2>{ `${ weather.current.humidity } %` }</h2>
-          <h2>{ weather.current.weather.icon }</h2>
           <p>Humidity</p>
         </p>
       </div>
