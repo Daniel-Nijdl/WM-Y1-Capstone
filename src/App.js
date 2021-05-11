@@ -1,4 +1,5 @@
 import React from 'react';
+import Detailed from './components/Detailed.jsx';
 import { Navigation, Footer, DayGraph, Temp, Map, UltraViolet, Humidity } from './export.js';
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <UltraViolet className="ultra-violet" />
         <Temp className="temp"/>
         <Map />
+        <Detailed/>
       </div>
       
       <DayGraph />
