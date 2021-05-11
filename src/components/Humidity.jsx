@@ -1,14 +1,14 @@
 import * as weather from "../weather.json";
+import { WiHumidity } from 'react-icons/wi';
 
 const Humidity = () => {
   return (
-    <div class="card">
-      <div class="card-body">
-        <p class="card-text">
-          <p>{ ` ${ weather.lat }, ${ weather.lon } ` }</p>
-          <p>{ new Date(weather.current.dt).toLocaleTimeString("en-US") }</p>
+    <div className="card">
+      <div className="card-body">
+        <p className="card-text">
           <h2>{ `${ weather.current.humidity } %` }</h2>
           <p>Humidity</p>
+          <WiHumidity size="100" />
         </p>
       </div>
     </div>
