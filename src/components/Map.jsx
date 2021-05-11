@@ -1,3 +1,5 @@
+import * as weather from '../weather.json';
+
 const Map = () => {
   return (
     <div class="card">
@@ -17,6 +19,9 @@ const Map = () => {
               ></iframe>
             </div>
           }
+          <br />
+          <p>{ new Date(weather.current.dt).toLocaleTimeString("en-US") }</p>
+          <p>{ ` ${ weather.lat }, ${ weather.lon } ` }</p>
         </p>
       </div>
     </div>
