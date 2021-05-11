@@ -8,7 +8,6 @@ const UltraViolet = () => {
           <p>{ ` ${ weather.lat }, ${ weather.lon } ` }</p>
           <p>{ new Date(weather.current.dt).toLocaleTimeString("en-US") }</p>
           <h2>{ `${ weather.current.uvi }` }</h2>
-          <h2>{ weather.current.weather.icon }</h2>
           <p>UV Index</p>
         </p>
       </div>
