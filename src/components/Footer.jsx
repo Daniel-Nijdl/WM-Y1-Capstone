@@ -38,7 +38,7 @@ const Footer = () => {
               <li className="list-unstyled">
                 <p>
                   Github:{" "}
-                  <a href="https://github.com/ilya-tate/captsone">
+                  <a href="https://github.com/ilya-tate/capstone">
                     github.com/ilya-tate/capstone
                   </a>
                 </p>
