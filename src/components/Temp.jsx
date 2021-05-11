@@ -66,8 +66,6 @@ const weatherData = () => {
     <div className="card">
       <div className="card-body">
         <p className="card-text">
-          <p>{` ${weather.lat}, ${weather.lon} `}</p>
-          <p>{new Date(weather.current.dt).toLocaleTimeString("en-US")}</p>
           <h2>{ `${ weather.current.temp }° F` }</h2>
           <p>{` Feels like ${weather.current.feels_like} `}</p>
           <p>{ `${ weather.current.weather.main }` }</p>
