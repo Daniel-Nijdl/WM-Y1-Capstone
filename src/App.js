@@ -8,6 +8,7 @@ function App() {
       <div className="main2">
       <Temp className="temp"/>
       <Map />
+      <Detailed/>
       </div>
       
       <DayGraph />
