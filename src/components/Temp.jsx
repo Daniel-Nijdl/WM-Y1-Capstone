@@ -3,7 +3,6 @@ console.log(weather.current.weather.main);
 
 const weatherData = () => {
   return (
-
     <div class="card">
       <div class="card-body">
         <p class="card-text">
@@ -15,6 +14,7 @@ const weatherData = () => {
         </p>
       </div>
     </div>
+
   );
 };
 

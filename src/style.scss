@@ -2,18 +2,17 @@
 
 $main-font: sans-serif;
 // Colors
-$darkblue-color: #1474F6;
-$midblue-color: #1197D4;
-$lightblue-color: #1EE1EB;
-$greenblue-color: #11D4A7;
-$green-color: #14F682;
+$darkblue-color: #1474f6;
+$midblue-color: #1197d4;
+$lightblue-color: #1ee1eb;
+$greenblue-color: #11d4a7;
+$green-color: #14f682;
 
 // Main styles
 
 *,
 *::after,
-*::before
-{
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,39 +24,35 @@ html {
   width: 100%;
 }
 
-
-
-.navBar{
+.navBar {
   width: 100%;
 }
 
-.navButton{
+.navButton {
   color: white !important;
 }
 
-.navTitle{
+.navTitle {
   color: white;
 }
 
-
-
-.card{
+.card {
   border: none !important;
   margin: 25px;
   width: 25%;
   text-align: center;
 
-  .card-body{
+  .card-body {
     border: 2px black solid;
     border-radius: 10px;
   }
 }
 
-.temp{
+.temp {
   display: flex;
 }
 
-.footer{
+.footer {
   background-color: blue;
   padding: 10px;
   text-align: center;
@@ -65,26 +60,27 @@ html {
   width: 100% !important;
 }
 
-p{
-  a{
+p {
+  a {
     color: white;
   }
 }
 
-.main2{
+.main2 {
   display: flex;
 }
 
-.map-responsive{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
-.map-responsive iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
+
