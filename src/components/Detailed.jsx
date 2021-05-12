@@ -16,9 +16,6 @@ const Detailed = () => {
         {new Date(weather.current.sunset).toLocaleTimeString("en-US")}
         </p>
         <p>
-        { `${ weather.current.moonrise }` }
-        </p>
-        <p>
         <p>
           Pressure:
 
