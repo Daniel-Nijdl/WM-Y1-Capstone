@@ -4,12 +4,72 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import DropdownButton from 'react-bootstrap/DropdownButton'
 import Dropdown from 'react-bootstrap/Dropdown'
+import * as weather from "../weather.json";
+import {
+  FaSun,
+  FaMoon,
+  FaCloudSun,
+  FaCloudMoon,
+  FaCloud,
+  FaCloudMeatball,
+  FaCloudShowersHeavy,
+  FaCloudSunRain,
+  FaCloudMoonRain,
+  FaBolt,
+  FaSnowflake
+} from 'react-icons/fa';
+import { RiMistFill } from 'react-icons/ri';
+
+
+const getCurrentIconElement = (objIcon) => {
+  switch (objIcon) {
+    case '01d':
+      return <FaSun size="45" />
+    case '02d':
+      return <FaCloudSun size="45" />
+    case '03d':
+      return <FaCloud size="45" />
+    case '04d':
+      return <FaCloudMeatball size="45" />
+    case '09d':
+      return <FaCloudShowersHeavy size="45" />
+    case '10d':
+      return <FaCloudSunRain size="45" />
+    case '11d':
+      return <FaBolt size="45" />
+    case '13d':
+      return <FaSnowflake size="45" />
+    case '50d':
+      return <RiMistFill size="45" />
+    case '01n':
+      return <FaMoon size="45" />
+    case '02n':
+      return <FaCloudMoon size="45" />
+    case '03n':
+      return <FaCloud size="45" />
+    case '04n':
+      return <FaCloudMeatball size="45" />
+    case '09n':
+      return <FaCloudShowersHeavy size="45" />
+    case '10n':
+      return <FaCloudMoonRain size="45" />
+    case '11n':
+      return <FaBolt size="45" />
+    case '13n':
+      return <FaSnowflake size="45" />
+    case '50n':
+      return <RiMistFill size="45" />
+    default:
+      console.log('No weather icon found');
+      break;
+  }
+}
 
 const Calendar = () => {
   return(
 
     <div className="card border-primary mb-3 calendar" >
-      <div className="card-header">Monthly Temperature</div>
+      <div className="card-header">Weekly Temperature</div>
       <div className="card-body">
        
       <Container>
@@ -26,80 +86,24 @@ const Calendar = () => {
 
   <Row>
     <Col className="box" xs={{ order: 'first' }}>
-      
+    <h5>Day:</h5>
+    <h3>{ `${ weather.daily.temp.day }° F` }</h3>
 
-  25
-
-
-      </Col>
-    <Col className="box" xs>26</Col>
-    <Col className="box" xs>27</Col>
-    <Col className="box" xs>28</Col>
-    <Col className="box" xs>29</Col>
-    <Col className="box" xs>30</Col>
-    <Col className="box" xs={{ order: 'last' }}>1</Col>
+    </Col>
+    <Col className="box" xs></Col>
+    <Col className="box" xs></Col>
+    <Col className="box" xs></Col>
+    <Col className="box" xs></Col>
+    <Col className="box" xs></Col>
+    <Col className="box" xs={{ order: 'last' }}></Col>
   </Row>
 
-  <Row>
-    <Col className="box" xs={{ order: 'first' }}>2</Col>
-    <Col className="box" xs>3</Col>
-    <Col className="box" xs>4</Col>
-    <Col className="box" xs>5</Col>
-    <Col className="box" xs>6</Col>
-    <Col className="box" xs>7</Col>
-    <Col className="box" xs={{ order: 'last' }}>8</Col>
-  </Row>
 
-  <Row>
-    <Col className="box" xs={{ order: 'first' }}>9</Col>
-    <Col className="box" xs>10</Col>
-    <Col className="box" xs>11</Col>
-    <Col className="box" xs>12</Col>
-    <Col className="box" xs>13</Col>
-    <Col className="box" xs>14</Col>
-    <Col className="box" xs={{ order: 'last' }}>15</Col>
-  </Row>
-
-  <Row>
-    <Col className="box" xs={{ order: 'first' }}>16</Col>
-    <Col className="box" xs>17</Col>
-    <Col className="box" xs>18</Col>
-    <Col className="box" xs>19</Col>
-    <Col className="box" xs>20</Col>
-    <Col className="box" xs>21</Col>
-    <Col className="box" xs={{ order: 'last' }}>22</Col>
-  </Row>
-
-  <Row>
-    <Col className="box" xs={{ order: 'first' }}>23</Col>
-    <Col className="box" xs>24</Col>
-    <Col className="box" xs>25</Col>
-    <Col className="box" xs>26</Col>
-    <Col className="box" xs>27</Col>
-    <Col className="box" xs>28</Col>
-    <Col className="box" xs={{ order: 'last' }}>29</Col>
-  </Row>
-
-  <Row>
-    <Col className="box" xs={{ order: 'first' }}>30</Col>
-    <Col className="box" xs>31</Col>
-    <Col className="box" xs>1</Col>
-    <Col className="box" xs>2</Col>
-    <Col className="box" xs>3</Col>
-    <Col className="box" xs>4</Col>
-    <Col className="box" xs={{ order: 'last' }}>5</Col>
-  </Row>
 
 </Container>
 
       </div>
     </div>
-    
-       
-      
- 
-
-
   )
 }
 
