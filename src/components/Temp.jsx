@@ -69,7 +69,7 @@ const weatherData = () => {
           <h2>{ `${ weather.current.temp }° F` }</h2>
           <p>{` Feels like ${weather.current.feels_like} `}</p>
           <p>{ `${ weather.current.weather.main }` }</p>
-          { getCurrentIconElement(weather.current.weather.icon) }
+          { getCurrentIconElement(weather.current.weather.main) }
         </p>
       </div>
     </div>

@@ -24,6 +24,11 @@ html {
   width: 100%;
 }
 
+// .main{
+//   background-image: url(https://i.postimg.cc/2yX2vwTT/clouds-background-005.jpg);
+//   background-size: cover;
+// }
+
 .navBar {
   width: 100%;
 }
@@ -53,7 +58,7 @@ html {
 }
 
 .footer {
-  background-color: blue;
+  background-color: #1474F6;
   padding: 10px;
   text-align: center;
   color: white;
@@ -101,3 +106,61 @@ p {
   font-size: 20px !important;
 }
 
+.weekly{
+  background-color: rgb(25, 247, 228);
+  border-radius: 15px;
+  border: black 1px solid;
+}
+
+.weeklyContainer{
+  border-radius: 15px;
+}
+
+.box-rest{
+  border: none !important;
+  border-left: 1px solid black !important;
+}
+
+.box-first{
+  border: none !important;
+  border-right: 1px solid black !important;
+}
+
+.box-last{
+  border: none !important;
+  border-left: 1px solid black !important;
+}
+
+.graphThing{
+  background-color: white;
+}
+
+.box{
+  height: 150px;
+  overflow: auto;
+  
+}
+
+.iconThing{
+  margin-bottom: 20px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00193b; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0e4899; 
+}

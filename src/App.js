@@ -17,7 +17,7 @@ function App() {
       </div>
 
 
-      <DayGraph />
+      <DayGraph className="graphThing"/>
       <Calendar />
       <Footer className="footer" />
     </div>

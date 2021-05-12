@@ -4,10 +4,10 @@ import * as weather from "../weather.json";
 const Detailed = () => {
   return (
 
-    <div id="detailed" class="card">
-      <div class="card-body">
+    <div id="detailed" className="card">
+      <div className="card-body">
 
-        <p class="card-text">
+        <p className="card-text">
           Sunrise:
           {new Date(weather.current.sunrise).toLocaleTimeString("en-US")}
         </p>
