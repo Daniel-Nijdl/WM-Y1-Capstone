@@ -13,6 +13,12 @@ html {
   width: 100%;
 }
 
+.main {
+  background-image: url(https://i.postimg.cc/2yX2vwTT/clouds-background-005.jpg);
+  background-size: cover;
+  height: 10% !important;
+}
+
 .navBar {
   width: 100%;
 }
@@ -55,7 +61,7 @@ p a {
   color: white;
 }
 
-.main2 {
+.main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -123,8 +129,7 @@ p a {
 }
 
 .box {
-  height: 150px;
-  overflow: auto;
+  height: auto;
 }
 
 .iconThing {

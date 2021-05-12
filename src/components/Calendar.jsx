@@ -52,63 +52,85 @@ const Calendar = () => {
 
           <Row className="weekly">
             <Col className="box box-first" xs={{ order: "first" }}>
-              <p>High:</p>
-              <h3>{`${weather.daily[0].temp.max}° F`}</h3>
-              <h5><FaSun size="45"  className="iconThing" /></h5>
-              <p>Day:</p>
-              <h5>{`${weather.daily[0].temp.day}° F`}</h5>
-              <p>Night:</p>
-              <h5>{`${weather.daily[0].temp.night}° F`}</h5>
+              <Dropdown id="dropdown-basic-button dropTemp">
+                <Dropdown.Toggle variant="success" id="dropdown-basic">
+                  <p>High:</p>
+                  <h3>{`${weather.daily[0].temp.max}° F`}</h3>
+                  <h5>
+                    <FaSun size="45" className="iconThing" />
+                  </h5>
+                </Dropdown.Toggle>
+                <Dropdown.Menu className="dropDownMenu" >
+                  <Dropdown.Item href="#/action-1">
+                    <p>Day:</p>
+                    <h5>{`${weather.daily[0].temp.day}° F`}</h5>
+                    <p>Night:</p>
+                    <h5>{`${weather.daily[0].temp.night}° F`}</h5>
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
             </Col>
             <Col className="box box-rest" xs>
-            <p>High:</p>
+              <p>High:</p>
               <h3>{`${weather.daily[0].temp.max}° F`}</h3>
-              <h5><FaSun size="45"  className="iconThing" /></h5>
+              <h5>
+                <FaSun size="45" className="iconThing" />
+              </h5>
               <p>Day:</p>
               <h5>{`${weather.daily[1].temp.day}° F`}</h5>
               <p>Night:</p>
               <h5>{`${weather.daily[1].temp.night}° F`}</h5>
             </Col>
             <Col className="box box-rest" xs>
-            <p>High:</p>
+              <p>High:</p>
               <h3>{`${weather.daily[0].temp.max}° F`}</h3>
-              <h5><FaSun size="45"  className="iconThing" /></h5>
+              <h5>
+                <FaSun size="45" className="iconThing" />
+              </h5>
               <p>Day:</p>
               <h5>{`${weather.daily[2].temp.day}° F`}</h5>
               <p>Night:</p>
               <h5>{`${weather.daily[2].temp.night}° F`}</h5>
             </Col>
             <Col className="box box-rest" xs>
-            <p>High:</p>
+              <p>High:</p>
               <h3>{`${weather.daily[0].temp.max}° F`}</h3>
-              <h5><FaSun size="45"  className="iconThing" /></h5>
+              <h5>
+                <FaSun size="45" className="iconThing" />
+              </h5>
               <p>Day:</p>
               <h5>{`${weather.daily[3].temp.day}° F`}</h5>
               <p>Night:</p>
               <h5>{`${weather.daily[3].temp.night}° F`}</h5>
             </Col>
             <Col className="box box-rest" xs>
-            <p>High:</p>
+              <p>High:</p>
               <h3>{`${weather.daily[0].temp.max}° F`}</h3>
-              <h5><FaSun size="45"  className="iconThing" /></h5>
+              <h5>
+                <FaSun size="45" className="iconThing" />
+              </h5>
               <p>Day:</p>
               <h5>{`${weather.daily[4].temp.day}° F`}</h5>
               <p>Night:</p>
               <h5>{`${weather.daily[4].temp.night}° F`}</h5>
             </Col>
             <Col className="box box-rest" xs>
-            <p>High:</p>
+              <p>High:</p>
               <h3>{`${weather.daily[0].temp.max}° F`}</h3>
-              <h5><FaSun size="45"  className="iconThing" /></h5>
+              <h5>
+                <FaSun size="45" className="iconThing" />
+              </h5>
               <p>Day:</p>
               <h5>{`${weather.daily[5].temp.day}° F`}</h5>
               <p>Night:</p>
               <h5>{`${weather.daily[5].temp.night}° F`}</h5>
             </Col>
             <Col className="box box-last" xs={{ order: "last" }}>
-            <p>High:</p>
+              <p>High:</p>
               <h3>{`${weather.daily[0].temp.max}° F`}</h3>
-              <h5><FaSun size="45" className="iconThing"/></h5>
+              <h5>
+                <FaSun size="45" className="iconThing" />
+              </h5>
               <p>Day:</p>
               <h5>{`${weather.daily[6].temp.day}° F`}</h5>
               <p>Night:</p>
