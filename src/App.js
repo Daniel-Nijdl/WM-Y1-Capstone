@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navigation, Footer, DayGraph, Temp, Map, UltraViolet, Humidity, Detailed, Calendar } from './export.js';
+import { Navigation, Footer, DayGraph, Temp, Map, UltraViolet, Humidity, Detailed, Calendar, WindSpeed } from './export.js';
 function App() {
   return (
 
@@ -9,6 +9,7 @@ function App() {
       <Navigation />
 
       <div className="main2">
+        <WindSpeed className="wind-speed" />
         <Humidity className="humidity" />
         <UltraViolet className="ultra-violet" />
         <Temp className="temp"/>
