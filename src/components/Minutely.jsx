@@ -8,8 +8,9 @@ const Minutely = () => {
             <div class="card-body">
 
                 <p class="card-text">
-e2r1f23rtr32
+                    {`${weather.minutely.precipitation}`}
                 </p>
+                {`${weather.minutely.dt}`}
             </div>
         </div>
     )
