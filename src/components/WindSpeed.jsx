@@ -6,7 +6,7 @@ const WindSpeed = () => {
     <div className="card">
       <div className="card-body">
         <p className="card-text">
-          <h2>{ `${ weather.current.wind_speed }` }</h2>
+          <h2>{ `${weather.current.wind_speed}` }</h2>
           <p>MPH</p>
           <br />
           <GiPaperWindmill size="65" />
