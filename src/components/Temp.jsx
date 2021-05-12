@@ -67,7 +67,7 @@ const weatherData = () => {
       <div className="card-body">
         <p className="card-text">
           <h2>{ `${ weather.current.temp }` }&deg; F</h2>
-          <p>{` Feels like ${weather.current.feels_like} `}</p>
+          <p>{ `Feels like ${ weather.current.feels_like }` }&deg; F</p>
           <p>{ `${ weather.current.weather.main }` }</p>
           { getCurrentIconElement(weather.current.weather.icon) }
         </p>
