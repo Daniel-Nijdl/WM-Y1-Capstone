@@ -7,3 +7,4 @@ export { default as Detailed } from './components/Detailed.jsx';
 export { default as UltraViolet } from './components/UltraViolet.jsx';
 export { default as Humidity } from './components/Humidity.jsx';
 export { default as Calendar } from './components/Calendar.jsx';
+export { default as Minutely} from './components/Minutely';
