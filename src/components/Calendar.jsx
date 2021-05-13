@@ -19,6 +19,7 @@ import {
   FaSnowflake,
 } from "react-icons/fa";
 import { RiMistFill } from "react-icons/ri";
+import SplitButton from 'react-bootstrap/SplitButton'
 
 const Calendar = () => {
   return (
@@ -52,16 +53,25 @@ const Calendar = () => {
 
           <Row className="weekly">
             <Col className="box box-first" xs={{ order: "first" }}>
-              <Dropdown id="dropdown-basic-button dropTemp">
-                <Dropdown.Toggle variant="success" id="dropdown-basic">
+
+
+
+
+
+
+
+              <Dropdown className="dropdownThing">
+
+                <Dropdown.Toggle id="dropdown-basic" className="dropdownToggle">
                   <p>High:</p>
                   <h3>{`${weather.daily[0].temp.max}° F`}</h3>
                   <h5>
                     <FaSun size="45" className="iconThing" />
                   </h5>
+
                 </Dropdown.Toggle>
-                <Dropdown.Menu className="dropDownMenu" >
-                  <Dropdown.Item href="#/action-1">
+                <Dropdown.Menu>
+                  <Dropdown.Item href="#/action-1" className="dropdownItem">
                     <p>Day:</p>
                     <h5>{`${weather.daily[0].temp.day}° F`}</h5>
                     <p>Night:</p>
@@ -69,6 +79,25 @@ const Calendar = () => {
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
+
+
+              <div id="detailedDrop">
+      <SplitButton
+        key="right"
+        id={`dropdown-button-drop-right`}
+        drop="right"
+        variant="secondary"
+        title={`Details`}
+      >
+        <Dropdown.Item eventKey="1">Action</Dropdown.Item>
+        <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
+        <Dropdown.Item eventKey="3">Something else here</Dropdown.Item>
+        <Dropdown.Divider />
+        <Dropdown.Item eventKey="4">Separated link</Dropdown.Item>
+      </SplitButton>
+  </div>
+
+
             </Col>
             <Col className="box box-rest" xs>
               <p>High:</p>

@@ -1,22 +1,11 @@
-// Main vars
-
-$main-font: sans-serif;
-// Colors
-$darkblue-color: #1474f6;
-$midblue-color: #1197d4;
-$lightblue-color: #1ee1eb;
-$greenblue-color: #11d4a7;
-$green-color: #14f682;
-
-// Main styles
-
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: $main-font;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 html {
@@ -24,7 +13,7 @@ html {
   width: 100%;
 }
 
-.main{
+.main {
   background-image: url(https://i.postimg.cc/2yX2vwTT/clouds-background-005.jpg);
   background-size: cover;
   height: 10% !important;
@@ -47,14 +36,16 @@ html {
   margin: 25px;
   width: 25%;
   text-align: center;
+}
 
-  .card-body {
-    border: 2px black solid;
-    border-radius: 10px;
-  }
+.card .card-body {
+  border: 2px black solid;
+  border-radius: 10px;
 }
 
 .temp {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -66,13 +57,13 @@ html {
   width: 100% !important;
 }
 
-p {
-  a {
-    color: white;
-  }
+p a {
+  color: white;
 }
 
 .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -82,6 +73,7 @@ p {
   position: relative;
   height: 0;
 }
+
 .map-responsive iframe {
   left: 0;
   top: 0;
@@ -90,58 +82,57 @@ p {
   position: absolute;
 }
 
-.box{
+.box {
   width: 200px;
   height: 200px;
   border: black 1px solid;
 }
 
-.calendar{
+.calendar {
   width: auto;
   margin-top: 20px;
-  
 }
 
-.card-header{
+.card-header {
   background-color: grey !important;
   color: white;
   font-size: 20px !important;
 }
 
-.weekly{
-  background-color: rgb(25, 247, 228);
+.weekly {
+  background-color: #19f7e4;
   border-radius: 15px;
   border: black 1px solid;
 }
 
-.weeklyContainer{
+.weeklyContainer {
   border-radius: 15px;
 }
 
-.box-rest{
+.box-rest {
   border: none !important;
   border-left: 1px solid black !important;
 }
 
-.box-first{
+.box-first {
   border: none !important;
   border-right: 1px solid black !important;
 }
 
-.box-last{
+.box-last {
   border: none !important;
   border-left: 1px solid black !important;
 }
 
-.graphThing{
+.graphThing {
   background-color: white;
 }
 
-.box{
+.box {
   height: auto;
 }
 
-.iconThing{
+.iconThing {
   margin-bottom: 20px;
 }
 
@@ -152,42 +143,45 @@ p {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ffffff; 
+  background: #ffffff;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #00193b; 
+  background: #00193b;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #0e4899; 
+  background: #0e4899;
 }
 
+.dropdown-menu-center {
+  text-align: center !important;
+  width: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: auto;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  background-color: blue;
+}
 
+li {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
 
-  .dropdown-menu-center{
-    text-align: center !important;
-    width: 10%;
-    align-items: center;
-
-    right: auto;
-    left: 50%;
-    -webkit-transform: translate(-50%, 0);
-    -o-transform: translate(-50%, 0);
-    transform: translate(-50%, 0);
-    background-color: blue;
-  }
-
-  li{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-  }
-
-.dropdownToggle{
+.dropdownToggle {
   margin-bottom: 25px !important;
 }
