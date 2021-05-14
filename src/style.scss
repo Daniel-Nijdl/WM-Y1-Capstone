@@ -47,7 +47,7 @@ html {
 .card {
   border: none !important;
   margin: 25px;
-  width: 25%;
+  width: 50%;
   text-align: center;
 
   .card-body {
@@ -220,11 +220,16 @@ p {
   font-size: large;
 }
 
-.card-body{
-  display: flex;
+#card-flex{
   #hour{
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 25px;
   }
+}
+
+.card-items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

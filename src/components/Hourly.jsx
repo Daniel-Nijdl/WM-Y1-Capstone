@@ -63,17 +63,28 @@ const getCurrentIconElement = (objIcon) => {
 
 const Hourly = () => {
   return (
+
+    
     <div className="hourlyContainer">
       <h3 id="hourlyTitle">Hourly Temperature: </h3>
       <div className="card" id="hourlyCard">
-        <div className="card-body">
-          <p id="hour">{ `${weather.hourly[0].dt}   ` }</p>
+        <div className="card-body" id="card-flex">
+          <div className="card-items">
+          <p id="hour">{ `${new Date(weather.hourly[0].dt).toLocaleTimeString("en-US")}   ` }</p>
           <FaSun size="45" id="hour" />
           <p id="hour">{ `${weather.hourly[0].weather.description}   ` }</p>
           <p id="hour">{ `${(weather.hourly[0].temp)} °F.` }</p>
           <p id="hour">{ `${(weather.hourly[0].feels_like)} °F.` }</p>
           <p id="hour">{ `${(weather.hourly[0].dew_point)} °F.` }</p>
-          <p id="hour">{ `${(weather.hourly[0].pressure)} °F.` }</p>
+          <p id="hour">{ `${(weather.hourly[0].pressure)} psi.` }</p>
+          <p id="hour">{ `${(weather.hourly[0].humidity)}%` }</p>
+          <p id="hour">{ `${(weather.hourly[0].uvi)}` }</p>
+          <p id="hour">{ `${(weather.hourly[0].clouds)}%` }</p>
+          <p id="hour">{ `${(weather.hourly[0].visibility)} ft.` }</p>
+          <p id="hour">{ `${(weather.hourly[0].wind_speed)} mph` }</p>
+          <p id="hour">{ `${(weather.hourly[0].wind_gust)} mph.` }</p>
+          <p id="hour">{ `${(weather.hourly[0].wind_deg)} °` }</p>
+          </div>
         </div>
       </div>
       
