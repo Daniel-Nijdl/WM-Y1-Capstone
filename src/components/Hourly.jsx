@@ -67,7 +67,13 @@ const Hourly = () => {
       <h3 id="hourlyTitle">Hourly Temperature: </h3>
       <div className="card" id="hourlyCard">
         <div className="card-body">
-          <p>{ `${ new Date(weather.hourly[0].dt).toLocaleTimeString("en-US") }` }</p>
+          <p id="hour">{ `${weather.hourly[0].dt}   ` }</p>
+          <FaSun size="45" id="hour" />
+          <p id="hour">{ `${weather.hourly[0].weather.description}   ` }</p>
+          <p id="hour">{ `${(weather.hourly[0].temp)} °F.` }</p>
+          <p id="hour">{ `${(weather.hourly[0].feels_like)} °F.` }</p>
+          <p id="hour">{ `${(weather.hourly[0].dew_point)} °F.` }</p>
+          <p id="hour">{ `${(weather.hourly[0].pressure)} °F.` }</p>
         </div>
       </div>
       

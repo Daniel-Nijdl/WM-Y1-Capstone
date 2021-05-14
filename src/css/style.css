@@ -214,4 +214,20 @@ li {
   width: 25%;
   margin: 1% auto;
 }
+
+#text {
+  font-size: large;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-body #hour {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 25px;
+}
 /*# sourceMappingURL=style.css.map */
