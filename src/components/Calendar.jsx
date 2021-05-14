@@ -60,28 +60,20 @@ const Calendar = () => {
 
 
 
-              <Dropdown className="dropdownThing">
-
-                <Dropdown.Toggle id="dropdown-basic" className="dropdownToggle">
                   <p>High:</p>
                   <h3>{`${weather.daily[0].temp.max}° F`}</h3>
                   <h5>
                     <FaSun size="45" className="iconThing" />
                   </h5>
 
-                </Dropdown.Toggle>
-                <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1" className="dropdownItem">
+               
                     <p>Day:</p>
                     <h5>{`${weather.daily[0].temp.day}° F`}</h5>
                     <p>Night:</p>
                     <h5>{`${weather.daily[0].temp.night}° F`}</h5>
-                  </Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
 
 
-              <div id="detailedDrop">
+              {/* <div id="detailedDrop">
       <SplitButton
         key="right"
         id={`dropdown-button-drop-right`}
@@ -95,8 +87,7 @@ const Calendar = () => {
         <Dropdown.Divider />
         <Dropdown.Item eventKey="4">Separated link</Dropdown.Item>
       </SplitButton>
-  </div>
-
+  </div> */}
 
             </Col>
             <Col className="box box-rest" xs>
