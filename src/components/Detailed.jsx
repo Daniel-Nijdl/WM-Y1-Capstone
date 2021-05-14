@@ -1,11 +1,22 @@
 import React from 'react';
 import * as weather from "../weather.json";
 import { TiWaves } from 'react-icons/ti';
-import { WiSunrise, WiSunset, WiHumidity } from "react-icons/wi";
+import { WiSunrise, WiSunset, WiHumidity, WiCloud } from "react-icons/wi";
 import { GiBottleVapors, GiPaperWindmill } from "react-icons/gi";
-import { WiCloud } from "react-icons/wi";
 import { MdVisibility, MdRotate90DegreesCcw } from "react-icons/md";
 
+const findCloudiness = clouds => {
+
+  if (clouds > 75) {
+    return 'Extremely Cloudy';
+  } else if (clouds > 50) {
+    return 'Very Cloudy';
+  } else if (clouds > 25) {
+    return 'Cloudy';
+  } else {
+    return 'Clear Skies';
+  }
+}
 
 const Detailed = () => {
   return (
@@ -51,7 +62,7 @@ const Detailed = () => {
             <WiCloud size="100"/>
             <br></br>
             Clouds:
-        {`${weather.current.clouds}`}
+        {` ${findCloudiness(weather.current.clouds)}`}
           </p>
           <MdVisibility size="75" />
           <br></br>
