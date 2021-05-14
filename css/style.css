@@ -155,4 +155,33 @@ p a {
 ::-webkit-scrollbar-thumb:hover {
   background: #0e4899;
 }
-/*# sourceMappingURL=style.css.map */
+
+.dropdown-menu-center {
+  text-align: center !important;
+  width: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: auto;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  background-color: blue;
+}
+
+li {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.dropdownToggle {
+  margin-bottom: 25px !important;
+}

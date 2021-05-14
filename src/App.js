@@ -16,7 +16,8 @@ function App() {
         <Airquality/>
       </div>
 
-      <DayGraph classNmae="day-graph" />
+
+      <DayGraph className="graphThing"/>
       <Calendar classname="calendar" />
       <Footer className="footer" />
     </div>
