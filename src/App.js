@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navigation, Footer, DayGraph, Temp, Map, Detailed, Calendar, Minutely } from './export.js';
+import { Navigation, Footer, DayGraph, Temp, Map, Detailed, Calendar, Minutely, Airquality, Hourly} from './export.js';
 function App() {
   return (
     <div className="Wrapper">
@@ -12,12 +12,12 @@ function App() {
         <Temp className="temp" />
         <Map className="map" />
         <Detailed />
-        <Minutely/>
       </div>
 
 
       <DayGraph className="graphThing"/>
-      <Calendar classname="calendar" />
+      <Calendar classname="calendar" id="weekly" />
+      <Hourly classname="hourly" id="hourly" />
       <Footer className="footer" />
     </div>
   );

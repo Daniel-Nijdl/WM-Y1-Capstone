@@ -17,6 +17,10 @@ html {
   background-image: url(https://i.postimg.cc/2yX2vwTT/clouds-background-005.jpg);
   background-size: cover;
   height: 10% !important;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navBar {
@@ -154,5 +158,60 @@ p a {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #0e4899;
+}
+
+.dropdown-menu-center {
+  text-align: center !important;
+  width: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: auto;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  background-color: blue;
+}
+
+li {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.dropdownToggle {
+  margin-bottom: 25px !important;
+}
+
+.hourlyContainer {
+  border: 2px black solid;
+  margin: 0 auto;
+  padding: 25px;
+  background-image: url(https://i.postimg.cc/2yX2vwTT/clouds-background-005.jpg);
+  background-size: cover;
+}
+
+#hourlyCard {
+  width: 89%;
+  margin: 1% auto !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#hourlyTitle {
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.712);
+  color: white;
+  width: 25%;
+  margin: 1% auto;
 }
 /*# sourceMappingURL=style.css.map */

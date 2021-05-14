@@ -28,6 +28,8 @@ html {
   background-image: url(https://i.postimg.cc/2yX2vwTT/clouds-background-005.jpg);
   background-size: cover;
   height: 10% !important;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .navBar {
@@ -190,4 +192,27 @@ p {
 
 .dropdownToggle{
   margin-bottom: 25px !important;
+}
+
+.hourlyContainer{
+  border: 2px black solid;
+  margin: 0 auto;
+  padding: 25px;
+  background-image: url(https://i.postimg.cc/2yX2vwTT/clouds-background-005.jpg);
+  background-size: cover;
+}
+
+#hourlyCard{
+  width: 89%;
+  margin: 1% auto !important;
+  display: flex;
+}
+
+#hourlyTitle{
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.712);
+  color: white;
+  width: 25%;
+  margin: 1% auto;
 }
