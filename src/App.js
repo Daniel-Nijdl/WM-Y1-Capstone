@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navigation, Footer, DayGraph, Temp, Map, UltraViolet, Humidity, Detailed, Calendar, Minutely, WindSpeed } from './export.js';
+import { Navigation, Footer, DayGraph, Temp, Map, UltraViolet, Humidity, Detailed, Calendar, Minutely, WindSpeed, Airquality} from './export.js';
 function App() {
   return (
     <div className="Wrapper">
@@ -13,6 +13,7 @@ function App() {
         <Map className="map" />
         <Detailed />
         <Minutely/>
+        <Airquality/>
       </div>
 
       <DayGraph classNmae="day-graph" />

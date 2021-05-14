@@ -9,4 +9,5 @@ export { default as Humidity } from './components/Humidity.jsx';
 export { default as Calendar } from './components/Calendar.jsx';
 export { default as WindSpeed } from './components/WindSpeed.jsx'
 export { default as Minutely } from './components/Minutely.jsx'
+export { default as Airquality } from './components/Airquality.jsx'
 
