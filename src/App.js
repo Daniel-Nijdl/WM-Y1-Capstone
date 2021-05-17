@@ -1,17 +1,18 @@
 import React from 'react';
-import { Navigation, Footer, DayGraph, Temp, Map, Detailed, Calendar, Hourly} from './export.js';
+import { Navigation, Footer, DayGraph, Temp, Map, Detailed, Calendar, Hourly, WindSpeed, Humidity, UltraViolet} from './export.js';
+import Container from 'react-bootstrap/Container'
 function App() {
   return (
     <div className="Wrapper">
       <Navigation className="navigation" />
 
-      <div className="main">
-        {/* <WindSpeed className="wind-speed" /> */}
-        {/* <Humidity className="humidity" /> */}
-        {/* <UltraViolet className="ultra-violet" /> */}
+      <div className="main mainGrid">
+        <WindSpeed className="ws" />
+        <Humidity className="humidity" />
+        <UltraViolet className="uv" />
         <Temp className="temp" />
         <Map className="map" />
-        <Detailed />
+        <Detailed className="detail" />
       </div>
 
 
