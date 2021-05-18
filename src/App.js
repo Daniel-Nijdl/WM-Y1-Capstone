@@ -5,19 +5,19 @@ function App() {
   return (
     <div className="Wrapper">
       <Navigation className="navigation" />
-
+      <Calendar classname="calendar" id="weekly" />
+      
       <div className="main mainGrid">
-        <WindSpeed className="ws" />
+        <Temp className="temp" />
         <Humidity className="humidity" />
         <UltraViolet className="uv" />
-        <Temp className="temp" />
+        <WindSpeed className="ws" />
         <Map className="map" />
         <Detailed className="detail" />
       </div>
 
 
       <DayGraph className="graphThing"/>
-      <Calendar classname="calendar" id="weekly" />
       <Hourly classname="hourly" id="hourly" />
       <Footer className="footer" />
     </div>

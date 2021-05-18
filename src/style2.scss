@@ -46,10 +46,8 @@ html {
 
 .mainCard{
   border: none;
-  width: auto;
   overflow: scroll;
-  max-height: 500px;
-  max-height: 300px;
+  height: 20em;
   width: auto;
 }
 
@@ -63,8 +61,8 @@ html {
 .mainGrid {
   display: grid;
   grid-template-areas: 
-  "ws hm uv"
-  "tp mp dt"
+  "tp hm uv"
+  "ws mp dt"
   ;
   padding: 10px;
 }
@@ -94,6 +92,31 @@ html {
 }
 
 
+
+
+
+
+
+
+// </Main Grid>
+
+
+
+// <Card Styling>
+
+@media (max-width: 768px) {
+  .resText{
+    font-size: 2vw;
+  }
+  .wind{
+    font-size: 2vw 2vh;
+  }
+  .mainCDiv{
+    font-size: 3vw 3vh;
+    size: 10rem;
+  }
+}
+
 .cardText{
   background-color: rgba(0, 0, 0, 0.568);
   color: white;
@@ -102,14 +125,10 @@ html {
   margin-top: 15px;
   padding: 10px;
 }
-// </Main Grid>
-
-
-
-// <Card Styling>
 
 .card-items{
   text-align: center;
+  background-size: 75%;
 }
 h2{
   text-align: center;
@@ -125,6 +144,10 @@ svg{
 
 // </Card Styling>
 
+
+.navName{
+  color: white;
+}
 
 .footer {
   background-color: #1474F6;
@@ -322,6 +345,7 @@ p {
 // }
 
 .windCard{
-  max-height: 200px;
-  max-width: 200px;
+  width: 5rem;
+  height: 5rem;
 }
+

@@ -6,10 +6,9 @@ const WindSpeed = () => {
     <div className="card mainCDiv" id="windCard">
       <div className="card-body mainCard wind">
         <p className="card-text cardText">
-          <h2>{ `${weather.current.wind_speed}` }</h2>
-          <p>MPH</p>
-          <br />
-          <GiPaperWindmill size="65" />
+          <h2 className="resText">{ `${weather.current.wind_speed}` }</h2>
+          <p className="resText">MPH</p>
+          <GiPaperWindmill className="resImg" />
         </p>
       </div>
     </div>

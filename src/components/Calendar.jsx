@@ -23,7 +23,7 @@ import SplitButton from 'react-bootstrap/SplitButton'
 
 const Calendar = () => {
   return (
-    <div className="card border-primary mb-3 calendar">
+    <div className="card calendar">
       <div className="card-header">Weekly Temperature</div>
       <div className="card-body">
         <Container className="weeklyContainer">
