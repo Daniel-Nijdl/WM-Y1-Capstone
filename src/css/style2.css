@@ -17,11 +17,10 @@ html {
   background-image: url(https://i.postimg.cc/2yX2vwTT/clouds-background-005.jpg);
   background-size: cover;
   height: 10% !important;
-  margin: 0 auto;
 }
 
 .navBar {
-  width: 100%;
+  width: 100vw;
 }
 
 .navButton {
@@ -32,22 +31,88 @@ html {
   color: white;
 }
 
-.card {
-  border: none !important;
-  margin: 25px;
-  width: 50%;
-  text-align: center;
+.mainCard {
+  border: none;
+  width: auto;
+  overflow: scroll;
+  max-height: 500px;
+  max-height: 300px;
+  width: auto;
 }
 
-.card .card-body {
-  border: 2px black solid;
-  border-radius: 10px;
+.mainCDiv {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mainGrid {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "ws hm uv" "tp mp dt";
+  padding: 10px;
+}
+
+.ws {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: ws;
+}
+
+.humidity {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: hm;
+}
+
+.uv {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: uv;
 }
 
 .temp {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: tp;
+}
+
+.map {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: mp;
+}
+
+.detail {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: dt;
+}
+
+.windText {
+  background-color: rgba(0, 0, 0, 0.568);
+  color: white;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.card-items {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+svg {
+  text-align: center;
 }
 
 .footer {
@@ -60,12 +125,6 @@ html {
 
 p a {
   color: white;
-}
-
-.main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .map-responsive {
@@ -236,12 +295,6 @@ li {
           justify-content: space-between;
 }
 
-.card-body {
-  display: flexbox;
-  max-height: 936.4px;
-  overflow: scroll;
-}
-
 .title-cards {
   font-size: large;
   -webkit-box-pack: justify;
@@ -269,4 +322,4 @@ li {
   max-height: 200px;
   max-width: 200px;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style2.css.map */

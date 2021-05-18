@@ -63,13 +63,13 @@ const getCurrentIconElement = (objIcon) => {
 
 const weatherData = () => {
   return (
-    <div className="card">
-      <div className="card-body">
-        <p className="card-text">
+    <div className="card mainCDiv">
+      <div className="card-body mainCard">
+        <p className="card-text cardText">
           <h2>{ `${ weather.current.temp }` }&deg; F</h2>
           <p>{ `Feels like ${ weather.current.feels_like }` }&deg; F</p>
-          <p>{ `${ weather.current.weather.main }` }</p>
-          { getCurrentIconElement(weather.current.weather.main) }
+          {/* <p>{ `${ weather.current.weather.main }` }</p>
+          { getCurrentIconElement(weather.current.weather.main) } */}
         </p>
       </div>
     </div>

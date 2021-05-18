@@ -31,7 +31,7 @@ const Navigation = () => {
           <Nav.Link className="navButton" href="#">
             Tomorrow
           </Nav.Link>
-          <Nav.Link className="navButton" href="#">
+          <Nav.Link className="navButton" href="#weekly">
             Weekly
           </Nav.Link>
           <Nav.Link className="navButton" href="#">

@@ -3,9 +3,9 @@ import { GiPaperWindmill } from 'react-icons/gi';
 
 const WindSpeed = () => {
   return (
-    <div className="card">
-      <div className="card-body">
-        <p className="card-text">
+    <div className="card mainCDiv" id="windCard">
+      <div className="card-body mainCard wind">
+        <p className="card-text cardText">
           <h2>{ `${weather.current.wind_speed}` }</h2>
           <p>MPH</p>
           <br />
@@ -13,6 +13,7 @@ const WindSpeed = () => {
         </p>
       </div>
     </div>
+
   );
 }
 

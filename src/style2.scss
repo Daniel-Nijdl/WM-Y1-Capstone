@@ -28,11 +28,10 @@ html {
   background-image: url(https://i.postimg.cc/2yX2vwTT/clouds-background-005.jpg);
   background-size: cover;
   height: 10% !important;
-  margin: 0 auto;
 }
 
 .navBar {
-  width: 100%;
+  width: 100vw;
 }
 
 .navButton {
@@ -43,21 +42,89 @@ html {
   color: white;
 }
 
-.card {
-  border: none !important;
-  margin: 25px;
-  width: 50%;
+// <Main Grid>
+
+.mainCard{
+  border: none;
+  width: auto;
+  overflow: scroll;
+  max-height: 500px;
+  max-height: 300px;
+  width: auto;
+}
+
+.mainCDiv{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-areas: 
+  "ws hm uv"
+  "tp mp dt"
+  ;
+  padding: 10px;
+}
+
+.ws{
+  grid-area: ws;
+}
+
+.humidity{
+  grid-area: hm;
+}
+
+.uv{
+  grid-area: uv;
+}
+
+.temp{
+  grid-area: tp;
+}
+
+.map{
+  grid-area: mp;
+}
+
+.detail{
+  grid-area: dt;
+}
+
+
+.cardText{
+  background-color: rgba(0, 0, 0, 0.568);
+  color: white;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 15px;
+  padding: 10px;
+}
+// </Main Grid>
+
+
+
+// <Card Styling>
+
+.card-items{
   text-align: center;
-
-  .card-body {
-    border: 2px black solid;
-    border-radius: 10px;
-  }
+}
+h2{
+  text-align: center;
 }
 
-.temp {
-  display: flex;
+p{
+  text-align: center;
 }
+
+svg{
+  text-align: center;
+}
+
+// </Card Styling>
+
 
 .footer {
   background-color: #1474F6;
@@ -73,9 +140,6 @@ p {
   }
 }
 
-.main {
-  display: flex;
-}
 
 .map-responsive {
   overflow: hidden;
@@ -232,12 +296,6 @@ p {
   align-items: center;
   align-content: center;
   justify-content: space-between;
-}
-
-.card-body{
-  display: flexbox;
-  max-height: 936.4px;
-  overflow: scroll;
 }
 
 .title-cards{

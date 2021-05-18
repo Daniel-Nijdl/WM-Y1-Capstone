@@ -3,9 +3,9 @@ import { TiWaves } from 'react-icons/ti';
 
 const UltraViolet = () => {
   return (
-    <div className="card">
-      <div className="card-body">
-        <p className="card-text">
+    <div className="card mainCDiv">
+      <div className="card-body mainCard">
+        <p className="card-text cardText">
           <h2>{ `${ weather.current.uvi }` }</h2>
           <p>UV Index</p>
           <TiWaves size="100" />

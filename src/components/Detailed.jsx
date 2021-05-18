@@ -1,80 +1,97 @@
 import React from 'react';
 import * as weather from "../weather.json";
 import { TiWaves } from 'react-icons/ti';
-import { WiSunrise, WiSunset, WiHumidity } from "react-icons/wi";
+import { WiSunrise, WiSunset, WiHumidity, WiCloud } from "react-icons/wi";
 import { GiBottleVapors, GiPaperWindmill } from "react-icons/gi";
-import { WiCloud } from "react-icons/wi";
 import { MdVisibility, MdRotate90DegreesCcw } from "react-icons/md";
 
+
+const findCloudiness = clouds => {
+
+  if (clouds > 75) {
+    return 'Extremely Cloudy';
+  } else if (clouds > 50) {
+    return 'Very Cloudy';
+  } else if (clouds > 25) {
+    return 'Cloudy';
+  } else {
+    return 'Clear Skies';
+  }
+}
 
 const Detailed = () => {
   return (
 
-    <div id="detailed" className="card">
-      <div className="card-body">
+    <div id="detailed" className="card mainCDiv">
+      <div className="card-body mainCard">
 
-        <p className="card-text">
-          <WiSunrise size="100" />
+        
+        <p className="card-text cardText">
+          <WiSunrise size="50" />
           <br></br>
           Sunrise:
           {new Date(weather.current.sunrise).toLocaleTimeString("en-US")}
 
         </p>
-        <p>
-        <WiSunset size="100" />
+        <p  className="card-text">
+        <WiSunset size="50" />
         <br></br>
           Sunset:
         {new Date(weather.current.sunset).toLocaleTimeString("en-US")}
         </p>
         <p>
-          <p>
+          <p className="card-text">
             Pressure:
 
         {`${weather.current.pressure}`}
           </p>
         </p>
-        <p>
-        <WiHumidity size="100" />
+        <p me="card-text">
+        <WiHumidity size="50" />
 <br></br>
           Humidity:
         {`${weather.current.humidity}`}
 
         </p>
-        <p>
-<GiBottleVapors size="90" />
+        <p className="card-text">
+<GiBottleVapors size="45" />
 <br></br>
           Dew Point:
         {`${weather.current.dew_point}`}
         </p>
         <p>
-          <p>
-            <WiCloud size="100"/>
+          <p className="card-text">
+            <WiCloud size="50"/>
             <br></br>
             Clouds:
-        {`${weather.current.clouds}`}
+        {` ${findCloudiness(weather.current.clouds)}`}
           </p>
-          <MdVisibility size="75" />
+          <MdVisibility size="35" />
           <br></br>
+          <p className="card-text">
         Visibility:
+        </p>
         {`${weather.current.visibility}`}
-          <p>
-            <GiPaperWindmill size="100"/>
+          {/* <p className="card-text">
+            <GiPaperWindmill size="50"/>
             <br></br>
             Wind Speed:
         {`${weather.current.wind_speed}`}
           </p>
-          <MdRotate90DegreesCcw size="100"/>
-          <br></br>
+          <MdRotate90DegreesCcw size="50"/>
+          <br></br> */}
+          {/* <p className="card-text">
         Wind Degrees:
+        </p> */}
         
-        <p>
+        {/* <p>
         {`${weather.current.wind_deg}`}
-          </p>
-          <p>
+          </p> */}
+          {/* <p>
             <h2>{`${weather.current.uvi}`}</h2>
-            <p>UV Index</p>
-            <TiWaves size="100" />
-          </p>
+            <p className="card-text">UV Index</p>
+            <TiWaves size="50" />
+          </p> */}
         </p>
       </div>
     </div>
@@ -82,4 +99,4 @@ const Detailed = () => {
 }
 
 export default Detailed;
-<TiWaves size="100" />
+<TiWaves size="50" />
