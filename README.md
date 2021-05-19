@@ -28,11 +28,12 @@ Weather Works is an advanced weather website using React and the Open Weather AP
 - UV Index
 - NPM Packages
 - Troubleshooting
-- Daily High Low Graph
+- Daily Temperature Graph
 - Humidity
 - Wind Speed
 - Clouds
 - README (SDLC)
+- Hourly Temperature Graph
 
 [Daniel Nijdl]
 - Foo
