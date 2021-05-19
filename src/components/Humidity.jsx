@@ -3,7 +3,7 @@ import { WiHumidity } from 'react-icons/wi';
 
 const Humidity = () => {
   return (
-    <div className="">
+    <div className="mainCDiv">
       <div className="">
         <p className="card-text cardText">
           <h2>{ `${ weather.current.humidity } %` }</h2>
