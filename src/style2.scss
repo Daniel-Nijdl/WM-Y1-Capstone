@@ -288,6 +288,8 @@ p {
   padding: 25px;
   background-image: url(https://i.postimg.cc/2yX2vwTT/clouds-background-005.jpg);
   background-size: cover;
+  overflow: scroll;
+  height: 12rem;
 }
 
 #hourlyCard{
@@ -360,3 +362,33 @@ p {
   background: transparent !important;
 }
 
+.card-title{
+  font-size: 1rem !important;
+}
+
+.card-text{
+  font-size: .75rem !important;
+}
+
+.hourlyDeck{
+  margin-top: 20px;
+}
+
+
+.hourlyText{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hourlyContainer{
+  margin-left:auto;
+  margin-right:auto;
+  height:auto; 
+  width: 90%;
+  height: 20rem;
+  overflow: scroll;
+}
+
+.hourlyDesc{
+  margin-top: 15px;
+}
