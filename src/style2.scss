@@ -30,6 +30,8 @@ html {
   height: 10% !important;
 }
 
+
+
 .navBar {
   width: 100vw;
 }
@@ -338,14 +340,23 @@ p {
   position: static;
 }
 
-// @media (max-width: 768px) {
-//   .card-text{
-//     font-size: 1.5em;
-//   }
-// }
+@media (max-width: 768px) {
+  .cmain{
+    height: 5% !important;
+  }
+}
 
 .windCard{
   width: 5rem;
   height: 5rem;
+}
+
+.wind{
+  background: transparent !important;
+  border: none;
+}
+
+#windCard{
+  background: transparent !important;
 }
 

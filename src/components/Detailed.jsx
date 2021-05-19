@@ -33,7 +33,7 @@ const Detailed = () => {
           {new Date(weather.current.sunrise).toLocaleTimeString("en-US")}
 
         </p>
-        <p  className="card-text">
+        <p card-body className="card-text">
         <WiSunset size="50" />
         <br></br>
           Sunset:
