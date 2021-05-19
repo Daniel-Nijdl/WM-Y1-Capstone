@@ -32,6 +32,7 @@ Weather Works is an advanced weather website using React and the Open Weather AP
 - Humidity
 - Wind Speed
 - Clouds
+- README (SDLC)
 
 [Daniel Nijdl]
 - Foo
