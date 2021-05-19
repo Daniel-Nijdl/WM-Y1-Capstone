@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navigation, Footer, DayGraph, Temp, Map, Detailed, Calendar, Hourly, WindSpeed, Humidity, UltraViolet} from './export.js';
+import { Navigation, Footer, DayGraph, Temp, Map, Detailed, Calendar, Hourly, WindSpeed, Humidity, UltraViolet, HourlyGraph} from './export.js';
 import Container from 'react-bootstrap/Container'
 function App() {
   return (
@@ -17,7 +17,8 @@ function App() {
       </div>
 
 
-      <DayGraph className="graphThing"/>
+      <DayGraph className="graphThing" />
+      <HourlyGraph className="hourly-graph" />
       <Hourly classname="hourly" id="hourly" />
       <Footer className="footer" />
     </div>
