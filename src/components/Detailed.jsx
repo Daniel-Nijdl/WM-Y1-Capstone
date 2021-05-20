@@ -22,9 +22,9 @@ const findCloudiness = clouds => {
 const Detailed = () => {
   return (
 
-    <div id="detailed" className=" mainCDiv">
-      <div className="card-body ">
-        <p className="card-text cardText">
+    <div id="detailed" className=" mainCDiv cardScroll">
+      <div className="card-body">
+        <p className="card-text cardText first">
           <WiSunrise size="50" />
           <br></br>
           Sunrise:

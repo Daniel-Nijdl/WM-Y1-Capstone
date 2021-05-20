@@ -52,6 +52,10 @@ html {
   margin-right: 10px;
 }
 
+.cardSize {
+  height: 251.01px;
+}
+
 .mainGrid {
   display: -ms-grid;
   display: grid;
@@ -115,6 +119,11 @@ html {
   margin-left: 10px;
   margin-top: 15px;
   padding: 10px;
+  height: 252px;
+}
+
+.first {
+  margin-top: none !important;
 }
 
 .card-items {
@@ -168,7 +177,21 @@ p a {
 .box {
   width: 200px;
   height: 200px;
-  border: black 1px solid;
+  margin-right: 5px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.568);
+  color: white;
+  margin-left: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.day-name {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.945);
+  color: black;
+  border-radius: 15px;
 }
 
 .calendar {
@@ -180,39 +203,24 @@ p a {
   background-color: grey !important;
   color: white;
   font-size: 20px !important;
+  width: 85%;
+  margin: 0 auto;
+  border-radius: 25px !important;
+  text-align: center;
+  font-size: 1.5rem !important;
 }
 
-.weekly {
-  background-color: #19f7e4;
-  border-radius: 15px;
-  border: black 1px solid;
+.cardScroll {
+  overflow: scroll;
+  height: 300px;
 }
 
 .weeklyContainer {
   border-radius: 15px;
 }
 
-.box-rest {
-  border: none !important;
-  border-left: 1px solid black !important;
-}
-
-.box-first {
-  border: none !important;
-  border-right: 1px solid black !important;
-}
-
-.box-last {
-  border: none !important;
-  border-left: 1px solid black !important;
-}
-
 .graphThing {
   background-color: white;
-}
-
-.box {
-  height: auto;
 }
 
 .iconThing {
@@ -226,7 +234,7 @@ p a {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ffffff;
+  background: transparent;
 }
 
 /* Handle */
@@ -288,7 +296,7 @@ li {
 #hourlyTitle {
   text-align: center;
   border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.712);
+  background-color: rgba(0, 0, 0, 0.568);
   color: white;
   width: 25%;
   margin: 1% auto;
@@ -389,10 +397,23 @@ li {
   width: 90%;
   height: 20rem;
   overflow: scroll;
+  overflow-x: hidden;
   margin-top: 25px;
+  border: none;
 }
 
 .hourlyDesc {
   margin-top: 15px;
+  background: transparent !important;
+  border: none !important;
+}
+
+.hourlyBack {
+  background-color: rgba(0, 0, 0, 0.568);
+  color: white;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 15px;
+  padding: 10px;
 }
 /*# sourceMappingURL=style2.css.map */
