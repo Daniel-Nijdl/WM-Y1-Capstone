@@ -2,9 +2,9 @@ import * as weather from '../weather.json';
 
 const Map = () => {
   return (
-    <div className="card mainCDiv">
-      <div className="card-body mainCard">
-        <h5 className="card-title">Phoenix, Arizona</h5>
+    <div className="mainCDiv">
+      <div className="">
+        <h5 className="card-title"></h5>
         <p className="card-text cardText">
           {
             <div className="map-responsive">
