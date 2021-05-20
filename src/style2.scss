@@ -24,13 +24,20 @@ html {
   width: 100%;
 }
 
-.main{
+.Wrapper{
   background-image: url(https://i.postimg.cc/2yX2vwTT/clouds-background-005.jpg);
   background-size: cover;
+}
+
+.main{
+  // background-image: url(https://i.postimg.cc/2yX2vwTT/clouds-background-005.jpg);
+  // background-size: cover;
   height: 10% !important;
 }
 
-
+.graphBack{
+  background-color: white;
+}
 
 .navBar {
   width: 100vw;
@@ -189,7 +196,8 @@ p {
 .calendar{
   width: auto;
   margin-top: 20px;
-  
+  // background-image: url(https://i.postimg.cc/2yX2vwTT/clouds-background-005.jpg);
+  // background-size: cover;
 }
 
 .card-header{
@@ -286,8 +294,8 @@ p {
   border: 2px black solid;
   margin: 0 auto;
   padding: 25px;
-  background-image: url(https://i.postimg.cc/2yX2vwTT/clouds-background-005.jpg);
-  background-size: cover;
+  // background-image: url(https://i.postimg.cc/2yX2vwTT/clouds-background-005.jpg);
+  // background-size: cover;
   overflow: scroll;
   height: 12rem;
 }
@@ -387,6 +395,7 @@ p {
   width: 90%;
   height: 20rem;
   overflow: scroll;
+  margin-top: 25px;
 }
 
 .hourlyDesc{
