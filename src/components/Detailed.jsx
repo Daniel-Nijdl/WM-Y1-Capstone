@@ -22,10 +22,8 @@ const findCloudiness = clouds => {
 const Detailed = () => {
   return (
 
-    <div id="detailed" className="card mainCDiv">
-      <div className="card-body mainCard">
-
-        
+    <div id="detailed" className=" mainCDiv">
+      <div className="card-body ">
         <p className="card-text cardText">
           <WiSunrise size="50" />
           <br></br>
@@ -33,45 +31,54 @@ const Detailed = () => {
           {new Date(weather.current.sunrise).toLocaleTimeString("en-US")}
 
         </p>
-        <p card-body className="card-text">
+        <p card-body className="card-text cardText">
         <WiSunset size="50" />
         <br></br>
           Sunset:
         {new Date(weather.current.sunset).toLocaleTimeString("en-US")}
         </p>
         <p>
-          <p className="card-text">
+          <p className="card-text cardText">
             Pressure:
-
+          <br></br>
         {`${weather.current.pressure}`}
           </p>
         </p>
-        <p me="card-text">
+        {/* <p me="card-text cardText">
+
         <WiHumidity size="50" />
+        <br></br>
+          Humidity:
+        {`${weather.current.humidity}`}
+        </p> */}
+
+<p className="card-text cardText">
+<WiHumidity size="50" />
 <br></br>
           Humidity:
         {`${weather.current.humidity}`}
-
         </p>
-        <p className="card-text">
+        <p className="card-text cardText">
 <GiBottleVapors size="45" />
 <br></br>
           Dew Point:
         {`${weather.current.dew_point}`}
         </p>
         <p>
-          <p className="card-text">
+          <p className="card-text cardText">
             <WiCloud size="50"/>
             <br></br>
             Clouds:
         {` ${findCloudiness(weather.current.clouds)}`}
           </p>
+
+          <p className="card-text cardText">
           <MdVisibility size="35" />
           <br></br>
-          <p className="card-text">
         Visibility:
-        </p>
         {`${weather.current.visibility}`}
+        </p>
+
           {/* <p className="card-text">
             <GiPaperWindmill size="50"/>
             <br></br>

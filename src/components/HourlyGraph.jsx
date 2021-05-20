@@ -33,7 +33,7 @@ const state = {
 
 const HourlyGraph = () => {
   return (
-    <MDBContainer>
+    <MDBContainer className="graphBack">
       <h3 className="mt-5">Hourly Temperatures</h3>
       <Line data={ state.dataLine } options={ { responsive: true } } />
     </MDBContainer>

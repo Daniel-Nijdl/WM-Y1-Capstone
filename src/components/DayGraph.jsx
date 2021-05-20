@@ -62,7 +62,7 @@ const state = {
 
 const DayGraph = () => {
   return (
-    <MDBContainer>
+    <MDBContainer className="graphBack">
       <h3 className="mt-5">Daily Temperatures</h3>
       <Line data={ state.dataLine } options={ { responsive: true } } />
     </MDBContainer>

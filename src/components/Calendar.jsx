@@ -23,9 +23,9 @@ import SplitButton from 'react-bootstrap/SplitButton'
 
 const Calendar = () => {
   return (
-    <div className="card calendar">
+    <div className="calendar">
       <div className="card-header">Weekly Temperature</div>
-      <div className="card-body">
+      <div className="card-body cardBackground">
         <Container className="weeklyContainer">
           <Row className="days">
             <Col className="box-day" xs={{ order: "first" }}>
