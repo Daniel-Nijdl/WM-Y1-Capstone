@@ -53,17 +53,17 @@ const Calendar = () => {
 
           <Row className="weekly">
             <Col className="box box-first" xs={{ order: "first" }}>
-                  <p>High:</p>
-                  <h3>{`${weather.daily[0].temp.max}° F`}</h3>
-                  <h5>
-                    <FaSun size="45" className="iconThing" />
-                  </h5>
+              <p>High:</p>
+              <h3>{`${weather.daily[0].temp.max}° F`}</h3>
+              <h5>
+                <FaSun size="45" className="iconThing" />
+              </h5>
 
-               
-                    <p>Day:</p>
-                    <h5>{`${weather.daily[0].temp.day}° F`}</h5>
-                    <p>Night:</p>
-                    <h5>{`${weather.daily[0].temp.night}° F`}</h5>
+
+              <p>Day:</p>
+              <h5>{`${weather.daily[0].temp.day}° F`}</h5>
+              <p>Night:</p>
+              <h5>{`${weather.daily[0].temp.night}° F`}</h5>
 
             </Col>
             <Col className="box box-rest" xs>

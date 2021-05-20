@@ -2,14 +2,9 @@ import * as weather from '../weather.json';
 
 const Map = () => {
   return (
-<<<<<<< HEAD
     <div className="mainCDiv">
       <div className="">
         <h5 className="card-title"></h5>
-=======
-    <div className=" mainCDiv">
-      <div className="card-body ">
->>>>>>> 93ff45ac04dc17275608cfbed6026f780095a7cd
         <p className="card-text cardText">
           {
             <div className="map-responsive">

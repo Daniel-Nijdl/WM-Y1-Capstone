@@ -11,19 +11,11 @@ const Footer = () => {
         <MDBRow>
           <MDBCol md="6">
             <h5 className="title">About Us</h5>
-            <p style={{ fontSize: "12px" }}>
-              Reprehenderit veniam magna cupidatat veniam elit nostrud est. Aute
-              magna minim adipisicing pariatur do irure quis ullamco. Nostrud
-              deserunt mollit proident mollit irure deserunt esse voluptate
-              mollit minim. Adipisicing adipisicing incididunt fugiat tempor
-              cillum et in minim consectetur. Deserunt laborum ad est Lorem ex
-              sunt minim aliqua quis veniam sint esse. In non labore nisi anim
-              aliquip reprehenderit reprehenderit. Irure incididunt aliqua sit
-              irure id ullamco excepteur deserunt veniam ea adipisicing.
-              Proident ea cillum aliqua aute magna tempor veniam. Excepteur
-              tempor est sint eu incididunt non irure cupidatat incididunt.
-              Consectetur voluptate deserunt cillum sit dolore et laboris
-              eiusmod mollit nisi.
+            <p style={{ fontSize: "15px" }}>
+              Weatherworks was founded 2018 in Phoenix, AZ  with a small crew of 3 people, but eventually its popularity lead to the company raising 
+              enough funds to open a company which now has over 200 members that work daily in order to make sure that the weather info you consumers 
+              receive is the most accurate as possible. In order to ensure that our daily users get the most accurate information possible we have 
+              our own weather balloon that we monitor 24/7 rather than getting all of our info from a third party.
             </p>
           </MDBCol>
           <MDBCol md="6">
