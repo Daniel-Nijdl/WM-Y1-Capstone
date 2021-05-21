@@ -109,6 +109,7 @@ Weather Works is an advanced weather website using React and the Open Weather AP
 - Ilya - Fixes
 - Daniel - Added hourly component and started working on it
 - Daniel - Finished data section in hourly
+- Jason - Edited card icons resized
 
 5/17/21
 - Daniel - Worked on troubleshooting a few issues
@@ -117,7 +118,7 @@ Weather Works is an advanced weather website using React and the Open Weather AP
 5/18/21
 - Ilya - Helped redesign much of the layout
 - Daniel - Made navbar responsive and cards partially responsive
-
+- Jason - Moved content to upper page to make it look better
 5/19/21
 - Ilya - Finished the overall layout of the SDLC
 - Daniel - Made wind icon larger and responsive
@@ -132,7 +133,7 @@ Weather Works is an advanced weather website using React and the Open Weather AP
 
 5/21/21
 - Daniel - Made entire page responsive, changed scss, and added finishing touches
-
+- Jason - fixed some bugs
 
 [React Bootstrap]: <https://github.com/react-bootstrap/react-bootstrap>
 [node.js]: <https://github.com/nodejs/node>
