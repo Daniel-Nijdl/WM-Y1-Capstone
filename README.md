@@ -49,8 +49,41 @@ Weather Works is an advanced weather website using React and the Open Weather AP
 5/4/21
 - Created repo and planned website
 
+5/5/21
+- Ilya - Created basic styling
+
+5/7/21
+- Ilya - Finished the daily graph
+- Ilya - Added Chart js 2
+- Ilya - Created file for easier exporting
+
+5/10/21
+- Ilya - Finished fixing several bugs
+
+5/11/21
+- Ilya - Added icons to components
+- Ilya - Changed the map
+- Ilya - Started humidity and uv index
+
+5/12/21
+- Ilya - Fixes
+- Ilya - Organized lots of code
+- Ilya - Added wind speed
+
+5/14/21
+- Ilya - Finished clouds component
+- Ilya - Fixes
+
+5/18/21
+- Ilya - Helped redesign much of the layout
+
 5/19/21
-- Ilya - Started SDLC
+- Ilya - Finished the overall layout of the SDLC
+
+5/20/21
+- Ilya - Finished hourly temperature graph
+- Ilya - Fixes
+
 
 [React Bootstrap]: <https://github.com/react-bootstrap/react-bootstrap>
 [node.js]: <https://github.com/nodejs/node>
