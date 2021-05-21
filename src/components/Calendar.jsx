@@ -27,7 +27,7 @@ const Calendar = () => {
       <div className="card-header">Weekly Temperature</div>
       <div className="card-body cardBackground">
         <Container className="weeklyContainer">
-          <Row className="days">
+          {/* <Row className="days">
             <Col className="box-day" xs={{ order: "first" }}>
               Sunday
             </Col>
@@ -49,16 +49,16 @@ const Calendar = () => {
             <Col className="box-day" xs={{ order: "last" }}>
               Saturday
             </Col>
-          </Row>
+          </Row> */}
 
           <Row className="weekly">
             <Col className="box box-first" xs={{ order: "first" }}>
-              <p>High:</p>
-              <h3>{`${weather.daily[0].temp.max}° F`}</h3>
-              <h5>
-                <FaSun size="45" className="iconThing" />
-              </h5>
-
+                  <h5 className="day-name">Sunday</h5>
+                  <p>High:</p>
+                  <h3>{`${weather.daily[0].temp.max}° F`}</h3>
+                  <h5>
+                    <FaSun size="45" className="iconThing" />
+                  </h5>
 
               <p>Day:</p>
               <h5>{`${weather.daily[0].temp.day}° F`}</h5>
@@ -67,6 +67,7 @@ const Calendar = () => {
 
             </Col>
             <Col className="box box-rest" xs>
+                                <h5 className="day-name">Monday</h5>
               <p>High:</p>
               <h3>{`${weather.daily[0].temp.max}° F`}</h3>
               <h5>
@@ -78,6 +79,7 @@ const Calendar = () => {
               <h5>{`${weather.daily[1].temp.night}° F`}</h5>
             </Col>
             <Col className="box box-rest" xs>
+                                <h5 className="day-name">Tuesday</h5>
               <p>High:</p>
               <h3>{`${weather.daily[0].temp.max}° F`}</h3>
               <h5>
@@ -89,6 +91,7 @@ const Calendar = () => {
               <h5>{`${weather.daily[2].temp.night}° F`}</h5>
             </Col>
             <Col className="box box-rest" xs>
+                                <h5 className="day-name">Wednesday</h5>
               <p>High:</p>
               <h3>{`${weather.daily[0].temp.max}° F`}</h3>
               <h5>
@@ -100,6 +103,7 @@ const Calendar = () => {
               <h5>{`${weather.daily[3].temp.night}° F`}</h5>
             </Col>
             <Col className="box box-rest" xs>
+                                <h5 className="day-name">Thursday</h5>
               <p>High:</p>
               <h3>{`${weather.daily[0].temp.max}° F`}</h3>
               <h5>
@@ -111,6 +115,7 @@ const Calendar = () => {
               <h5>{`${weather.daily[4].temp.night}° F`}</h5>
             </Col>
             <Col className="box box-rest" xs>
+                                <h5 className="day-name">Friday</h5>
               <p>High:</p>
               <h3>{`${weather.daily[0].temp.max}° F`}</h3>
               <h5>
@@ -122,6 +127,7 @@ const Calendar = () => {
               <h5>{`${weather.daily[5].temp.night}° F`}</h5>
             </Col>
             <Col className="box box-last" xs={{ order: "last" }}>
+              <h5 className="day-name">Saturday</h5>
               <p>High:</p>
               <h3>{`${weather.daily[0].temp.max}° F`}</h3>
               <h5>

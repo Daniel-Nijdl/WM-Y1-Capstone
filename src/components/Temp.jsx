@@ -64,7 +64,7 @@ const getCurrentIconElement = (objIcon) => {
 const weatherData = () => {
   return (
     <div className="mainCDiv">
-      <div className="card-body ">
+      <div className="card-body">
         <p className="card-text cardText">
           <h2>{ `${ weather.current.temp }` }&deg; F</h2>
           <p>{ `Feels like ${ weather.current.feels_like }` }&deg; F</p>

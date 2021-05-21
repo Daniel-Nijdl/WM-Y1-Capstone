@@ -69,7 +69,7 @@ const Hourly = () => {
   
     <div className="hourlyContainer">
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>12am</p>
@@ -90,7 +90,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>1am</p>
@@ -111,7 +111,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>2am</p>
@@ -132,7 +132,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>3am</p>
@@ -153,7 +153,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>4am</p>
@@ -174,7 +174,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>5am</p>
@@ -195,7 +195,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>6am</p>
@@ -216,7 +216,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>7am</p>
@@ -237,7 +237,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>8am</p>
@@ -258,7 +258,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>9am</p>
@@ -279,7 +279,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>10am</p>
@@ -300,7 +300,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>11am</p>
@@ -321,7 +321,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>12pm</p>
@@ -342,7 +342,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>1pm</p>
@@ -363,7 +363,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>2pm</p>
@@ -384,7 +384,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>3pm</p>
@@ -405,7 +405,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>4pm</p>
@@ -426,7 +426,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>5pm</p>
@@ -447,7 +447,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>6pm</p>
@@ -468,7 +468,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>7pm</p>
@@ -489,7 +489,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>8pm</p>
@@ -510,7 +510,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>9pm</p>
@@ -531,7 +531,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>10pm</p>
@@ -552,7 +552,7 @@ const Hourly = () => {
   </Card>
 
   <Card className="hourlyDesc">
-    <Card.Body>
+    <Card.Body className="hourlyBack">
       <Card.Title></Card.Title>
       <Card.Text className="hourlyText">
       <p>11pm</p>
