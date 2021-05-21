@@ -52,6 +52,9 @@ Weather Works is an advanced weather website using React and the Open Weather AP
 5/5/21
 - Ilya - Created basic styling
 
+5/6/21
+- Ilya - Finished footer
+
 5/7/21
 - Ilya - Finished the daily graph
 - Ilya - Added Chart js 2
