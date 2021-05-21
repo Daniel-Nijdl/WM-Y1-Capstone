@@ -22,6 +22,7 @@ $green-color: #14f682;
 html {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .Wrapper{
@@ -38,7 +39,7 @@ html {
 }
 
 .graphBack{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.678);
 }
 
 .navBar {

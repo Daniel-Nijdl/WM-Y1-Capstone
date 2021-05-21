@@ -52,37 +52,67 @@ Weather Works is an advanced weather website using React and the Open Weather AP
 5/5/21
 - Ilya - Created basic styling
 
+5/6/21
+- Daniel - Added navbar component
+- Added temp component
+- Started working on Temp Component
+
 5/7/21
 - Ilya - Finished the daily graph
 - Ilya - Added Chart js 2
 - Ilya - Created file for easier exporting
+- Daniel - Added content and details to temp
+- Daniel - Created google maps component
 
 5/10/21
 - Ilya - Finished fixing several bugs
+- Daniel - Fixed bugs in footer
+- Daniel - Temporarily fixed navbar, map, and temp
 
 5/11/21
 - Ilya - Added icons to components
 - Ilya - Changed the map
 - Ilya - Started humidity and uv index
+- Daniel - Fixed a few bugs in footer and temp
+- Daniel - created calendar component and github link in footer
 
 5/12/21
 - Ilya - Fixes
 - Ilya - Organized lots of code
 - Ilya - Added wind speed
+- Daniel - Changed monthly component into weekly
+- Daniel - Worked on weekly and scss
+
+5/13/21
+- Daniel - Added dropdown for details on weekly
+- Daniel - Moved content and removed 3 cards from main
 
 5/14/21
 - Ilya - Finished clouds component
 - Ilya - Fixes
+- Daniel - Added hourly component and started working on it
+- Daniel - Finished data section in hourly
+
+5/17/21
+- Daniel - Worked on troubleshooting a few issues
+- Daniel- Worked on styling components
 
 5/18/21
 - Ilya - Helped redesign much of the layout
+- Daniel - Made navbar responsive and cards partially responsive
 
 5/19/21
 - Ilya - Finished the overall layout of the SDLC
+- Daniel - Made wind icon larger and responsive
+- Daniel - Added hourly description and details section
+
 
 5/20/21
 - Ilya - Finished hourly temperature graph
 - Ilya - Fixes
+- Daniel - Changed website background and made components backgrounds transparent
+- Daniel - Modified SCSS and big fixes
+
 
 
 [React Bootstrap]: <https://github.com/react-bootstrap/react-bootstrap>
