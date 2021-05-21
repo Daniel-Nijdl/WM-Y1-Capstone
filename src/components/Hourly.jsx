@@ -379,7 +379,7 @@ const Hourly = () => {
       <p>{ `${(weather.hourly[14].wind_speed)} mph` }</p>
       <p>{ `${(weather.hourly[14].wind_gust)} mph.` }</p>
       <p>{ `${(weather.hourly[14].wind_deg)} °` }</p>
-       className="hourlyDesc"</Card.Text>
+       </Card.Text>
     </Card.Body>
   </Card>
 

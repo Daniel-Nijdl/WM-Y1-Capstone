@@ -68,6 +68,7 @@ const weatherData = () => {
         <p className="card-text cardText">
           <h2>{ `${ weather.current.temp }` }&deg; F</h2>
           <p>{ `Feels like ${ weather.current.feels_like }` }&deg; F</p>
+          <FaSun size="45" className="sun"/>
           {/* <p>{ `${ weather.current.weather.main }` }</p>
           { getCurrentIconElement(weather.current.weather.main) } */}
         </p>

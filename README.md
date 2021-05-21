@@ -113,6 +113,8 @@ Weather Works is an advanced weather website using React and the Open Weather AP
 - Daniel - Changed website background and made components backgrounds transparent
 - Daniel - Modified SCSS and big fixes
 
+5/21/21
+- Daniel - Made entire page responsive, changed scss, and added finishing touches
 
 
 [React Bootstrap]: <https://github.com/react-bootstrap/react-bootstrap>
