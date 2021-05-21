@@ -1,12 +1,25 @@
-import React from 'react';
-import { Navigation, Footer, DayGraph, Temp, Map, Detailed, Calendar, Hourly, WindSpeed, Humidity, UltraViolet, HourlyGraph} from './export.js';
-import Container from 'react-bootstrap/Container'
+import React from "react";
+import {
+  Navigation,
+  Footer,
+  DayGraph,
+  Temp,
+  Map,
+  Detailed,
+  Calendar,
+  Hourly,
+  WindSpeed,
+  Humidity,
+  UltraViolet,
+  HourlyGraph,
+} from "./export.js";
+import Container from "react-bootstrap/Container";
 function App() {
   return (
     <div className="Wrapper">
       <Navigation className="navigation" />
       <Calendar classname="calendar" id="weekly" />
-      
+
       <div className="main mainGrid">
         <Temp className="temp" />
         <Humidity className="humidity" />
@@ -16,9 +29,11 @@ function App() {
         <Detailed className="detail" />
       </div>
 
+      <div className="graphs">
+        <DayGraph className="graphThing" />
+        <HourlyGraph className="hourly-graph" />
+      </div>
 
-      <DayGraph className="graphThing" />
-      <HourlyGraph className="hourly-graph" />
       <Hourly classname="hourly" id="hourly" />
       <Footer className="footer" />
     </div>

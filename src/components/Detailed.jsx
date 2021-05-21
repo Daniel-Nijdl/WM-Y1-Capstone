@@ -28,14 +28,14 @@ const Detailed = () => {
           <WiSunrise size="50" />
           <br></br>
           Sunrise:
-          {new Date(weather.current.sunrise).toLocaleTimeString("en-US")}
+          <p>{new Date(weather.current.sunrise).toLocaleTimeString("en-US")}</p>
 
         </p>
         <p card-body className="card-text cardText">
         <WiSunset size="50" />
         <br></br>
           Sunset:
-        {new Date(weather.current.sunset).toLocaleTimeString("en-US")}
+        <p>{new Date(weather.current.sunset).toLocaleTimeString("en-US")}</p>
         </p>
         <p>
           <p className="card-text cardText">
@@ -56,7 +56,7 @@ const Detailed = () => {
 <WiHumidity size="50" />
 <br></br>
           Humidity:
-        {`${weather.current.humidity}`}
+        <p>{`${weather.current.humidity}`}</p>
         </p>
         <p className="card-text cardText">
 <GiBottleVapors size="45" />
@@ -69,14 +69,14 @@ const Detailed = () => {
             <WiCloud size="50"/>
             <br></br>
             Clouds:
-        {` ${findCloudiness(weather.current.clouds)}`}
+        <p>{` ${findCloudiness(weather.current.clouds)}`}</p>
           </p>
 
           <p className="card-text cardText">
           <MdVisibility size="35" />
           <br></br>
         Visibility:
-        {`${weather.current.visibility}`}
+        <p>{`${weather.current.visibility}`}</p>
         </p>
 
           {/* <p className="card-text">

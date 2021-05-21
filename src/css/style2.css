@@ -11,6 +11,7 @@
 html {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .Wrapper {
@@ -23,7 +24,17 @@ html {
 }
 
 .graphBack {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.678);
+  width: 40vw !important;
+  margin-right: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.graphs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .navBar {
@@ -45,6 +56,65 @@ html {
   width: auto;
 }
 
+.hourlyText {
+  overflow: hidden;
+}
+
+.hourlyText p {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hourlyText {
+    overflow: scroll;
+  }
+  .hourlyText p {
+    font-size: .5rem;
+    margin-left: 10px;
+    margin-right: 2px;
+  }
+  #hour {
+    margin-left: 100px;
+  }
+  .graphs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100% !important;
+    padding: 15px;
+  }
+  .graphBack {
+    width: 100% !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .weekly p {
+    font-size: .75rem;
+  }
+  .weekly h5 {
+    font-size: 1rem;
+  }
+  .weekly .box {
+    margin-bottom: 10px;
+    width: 119px;
+  }
+  .weekly .box-last {
+    width: 119px !important;
+  }
+  .cardText svg {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+h5, h3 {
+  text-align: center !important;
+}
+
 .mainCDiv {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -60,7 +130,28 @@ html {
   display: -ms-grid;
   display: grid;
       grid-template-areas: "tp hm uv" "ws mp dt";
-  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.cardText {
+  text-align: center;
+  padding: 8px;
+  width: 20vw;
+}
+
+.cardText h2 {
+  font-size: 1rem;
+}
+
+.cardText p {
+  font-size: .75rem;
+}
+
+.box {
+  margin-bottom: 10px;
 }
 
 .ws {
@@ -110,16 +201,27 @@ html {
     font-size: 3vw 3vh;
     size: 10rem;
   }
+  .box h5 {
+    font-size: .75rem;
+  }
+}
+
+.sun {
+  margin-top: 8px;
 }
 
 .cardText {
   background-color: rgba(0, 0, 0, 0.568);
   color: white;
   border-radius: 15px;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-top: 15px;
   padding: 10px;
   height: 252px;
+}
+
+.cardText p {
+  margin: 0 auto;
 }
 
 .first {
@@ -213,6 +315,7 @@ p a {
 .cardScroll {
   overflow: scroll;
   height: 300px;
+  overflow-x: hidden;
 }
 
 .weeklyContainer {
