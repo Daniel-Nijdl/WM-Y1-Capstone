@@ -43,7 +43,11 @@ Weather Works is an advanced weather website using React and the Open Weather AP
 
 [Jason Enciso]
 - Bar
-
+- React icons
+- Logo
+- Detailed Card
+- Made cards more appealing
+- minutely
 ## Dev Log
 
 5/4/21
@@ -56,23 +60,27 @@ Weather Works is an advanced weather website using React and the Open Weather AP
 - Ilya - Finished the daily graph
 - Ilya - Added Chart js 2
 - Ilya - Created file for easier exporting
+- Jason - Logo was created and added to the website
 
 5/10/21
 - Ilya - Finished fixing several bugs
+- Jason - detailed and other cards were create and wip
+
 
 5/11/21
 - Ilya - Added icons to components
 - Ilya - Changed the map
 - Ilya - Started humidity and uv index
-
+- Jason - A few cards were made for specific parts of weather
 5/12/21
 - Ilya - Fixes
 - Ilya - Organized lots of code
 - Ilya - Added wind speed
-
+- 
 5/14/21
 - Ilya - Finished clouds component
 - Ilya - Fixes
+- Jason - Removed white background from cards to make them look better
 
 5/18/21
 - Ilya - Helped redesign much of the layout
